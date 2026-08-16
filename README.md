@@ -355,13 +355,3 @@ Chess Assist is designed to make it easier to:
 This project should only be used where automation and engine assistance are permitted.
 
 Do not use the extension to gain an unfair advantage against human opponents or to circumvent a chess platform's fair-play, anti-cheating, or automation systems.
-
-## License
-
-Add your preferred license here, for example:
-
-```text
-MIT License
-```
-
-if the project and all bundled dependencies are compatible with that license.
