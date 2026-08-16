@@ -247,7 +247,7 @@ Load unpacked
 and choose:
 
 ```text
-/Users/home/WorkSpace/testlab/LichessHelper/
+/WorkspaceFolder
 ```
 
 ### 5. Reload after changes
