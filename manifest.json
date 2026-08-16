@@ -1,0 +1,29 @@
+{
+  "content_scripts": [
+    {
+      "css": ["style.css"],
+      "js": ["engine.js", "ui.js"],
+      "matches": ["https://www.chess.com/*", "https://lichess.org/*"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["debugger", "storage"],
+  "host_permissions": ["https://stockfish.online/*", "https://www.chessdb.cn/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["stockfish.wasm.js", "stockfish.wasm"],
+      "matches": ["https://www.chess.com/*", "https://lichess.org/*"]
+    }
+  ],
+  "manifest_version": 3,
+  "name": "Chess Assist",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
